@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+    <fieldset class="bor">
+        <legend>About the Superhero</legend>
+    <label>  Real Name<input class="reg" tabindex="1" placeholder="Superhero real name" type="text" name="username" value=""></label>
+    <label> Superhero Name<input class="reg" type="text" placeholder="Superhero alias" name="userpass" ></label>
+    <label> Age<input class="reg" type="number"  name="userpass" min="1" max="999" step="1"></label>
+    <label class="About"><br> About
+        <textarea maxlength="500" name="text" id="" cols="70" rows="5" placeholder="information about the superhero, max 500 symbols" ></textarea><br></label>
+   <label>Photo: <input type="file" name="file"></label>
+    </fieldset>
+    <fieldset class="bor">
+        <legend>Powers</legend>
+        <label ><input type="checkbox" name="Powers" value="yes"> Telekinesis</label>
+        <label> <input type="checkbox" name="Powers" value="yes"> Super strength or speed</label>
+       <label> <input type="checkbox" name="Powers" value="yes"> Shapeshifring</label>
+       <label> <input type="checkbox" name="Powers" value="yes"> Flight</label>
+       <label> <input type="checkbox" name="Powers" value="yes"> Etemential control</label>
+       <label> <input type="checkbox" name="Powers" value="yes"> Other</label>
+        <label> <br> Level of control:<input class="level" type="range" min="1" max="100" value="50" class="slider" id="myRange"></label>
+    </fieldset>
+    <fieldset class="bor">
+        <legend>Origin of Powers</legend>
+            <label> <input type="radio" name="why">Unknown</label>
+            <label> <input type="radio" name="why">Freak lab accident</label>
+            <label> <input type="radio" name="why">Chosen by an ancient wise being</label>
+            <label> <input type="radio" name="why">The superhero is not human</label>
+            <label> <input type="radio" name="why">Other</label>
+    </fieldset>
+    <div class="button">
+        <input type="reset" value="CLEAR"></input>
+        <input type="submit" value="SEND"></input>
+    </div>
+</form>
+</body>
+</html>

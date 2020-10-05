@@ -1,0 +1,23 @@
+.krug {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: green;
+    margin-top: 20px;
+    transition: background-color 2s ease-out;
+    display: inline-block;
+    left: 200px;
+    animation: moving 6s infinite;
+    animation-timing-function: ease;
+  }
+  @keyframes moving {
+    50%{
+      left: 100%;
+      margin-left: 80%;
+    }
+  }
+
+  .krug:hover {
+    background-color: red;
+    cursor: pointer;
+  }

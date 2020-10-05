@@ -1,0 +1,43 @@
+h1,h2 {
+    text-align: center;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    width: 100%;
+}
+.block {
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid grey;
+}
+.forma{
+    padding:20px 10px 10px 0px;
+}
+.forma > input {
+    width: 100%;
+    color: royalblue;
+}
+input::-webkit-input-placeholder { color: blue; }
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media screen and (min-width:1024px)  {
+    .table{
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width:768px){
+    .table{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:320px) {
+    .table{
+    grid-template-columns: repeat(1, 1fr);
+    }
+}

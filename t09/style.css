@@ -1,0 +1,18 @@
+form {
+    border: 2px solid gray;
+    padding: 20px;
+}
+.button {
+    padding: 10px 10px 10px 2.5px;
+}
+.level {
+    margin-top: -10px;
+}
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reg {
+    margin-left: 5px ;
+    margin-right: 5px;    
+}

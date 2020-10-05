@@ -1,0 +1,11 @@
+.ruka{
+    height: 200px;
+}
+img {
+    height: 90px;
+    display: inline-block;
+}
+.ruka:hover ~  table tr:nth-child(odd) td:nth-child(even),.ruka:hover ~  table tr:nth-child(even) td:nth-child(odd)
+{
+    opacity: 0;
+}

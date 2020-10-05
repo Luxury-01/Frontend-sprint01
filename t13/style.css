@@ -1,0 +1,11 @@
+.iron{
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+@media print {
+    .iron {
+      float: none;
+    }
+  }
+  
